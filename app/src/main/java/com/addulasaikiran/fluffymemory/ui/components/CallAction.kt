@@ -35,7 +35,7 @@ fun CallAction(
         else -> MaterialTheme.colorScheme.surfaceVariant
     }
     val foreground = when {
-        destructive -> MaterialTheme.colorScheme.surface
+        destructive -> MaterialTheme.colorScheme.onError
         active -> MaterialTheme.colorScheme.onPrimaryContainer
         else -> MaterialTheme.colorScheme.onSurface
     }
