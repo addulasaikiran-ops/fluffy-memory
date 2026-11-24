@@ -1,6 +1,6 @@
 package com.addulasaikiran.fluffymemory.data
 
-import androidx.datastore.core.PreferenceDataStoreFactory
+import androidx.datastore.preferences.core.PreferenceDataStoreFactory
 import com.addulasaikiran.fluffymemory.data.preferences.UserPreferencesRepository
 import com.addulasaikiran.fluffymemory.ui.theme.DialerThemeMode
 import kotlinx.coroutines.flow.first
