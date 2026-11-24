@@ -50,7 +50,7 @@ fun DialerButton(
             enabled = enabled,
             colors = ButtonDefaults.buttonColors(
                 containerColor = colors.danger,
-                contentColor = MaterialTheme.colorScheme.surface
+                contentColor = MaterialTheme.colorScheme.onError
             )
         ) {
             Text(text = text)
