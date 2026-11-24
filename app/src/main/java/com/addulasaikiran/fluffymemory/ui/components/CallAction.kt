@@ -53,8 +53,7 @@ fun CallAction(
             ),
         shape = CircleShape,
         color = background,
-        contentColor = foreground,
-        enabled = enabled
+        contentColor = foreground
     ) {
         Column(
             modifier = Modifier.padding(10.dp),
